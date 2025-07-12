@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 163, in script
+    jump part_two
+ScriptError: could not find label 'part_two'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 163, in script
+    jump part_two
+  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 1712, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Applications/renpy-8.3.7-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'part_two'.
+
+macOS-15.5-arm64-arm-64bit arm64
+Ren'Py 8.3.7.25031702
+storyboard 1.0
+Fri Jul 11 16:55:47 2025
