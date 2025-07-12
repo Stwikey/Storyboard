@@ -1,22 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 163, in script
-    jump part_two
-ScriptError: could not find label 'part_two'.
+After initialization, but before game start.
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timothyjones/Documents/GitHub/Storyboard/storyboard/game/saves/navigation.json.new' -> '/Users/timothyjones/Documents/GitHub/Storyboard/storyboard/game/saves/navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 163, in script
-    jump part_two
-  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 1712, in execute
-    rv = renpy.game.script.lookup(target)
-  File "/Applications/renpy-8.3.7-sdk/renpy/script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'part_two'.
+  File "/Applications/renpy-8.3.7-sdk/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/Applications/renpy-8.3.7-sdk/renpy/main.py", line 599, in main
+    renpy.dump.dump(False)
+  File "/Applications/renpy-8.3.7-sdk/renpy/dump.py", line 262, in dump
+    os.rename(new, filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/timothyjones/Documents/GitHub/Storyboard/storyboard/game/saves/navigation.json.new' -> '/Users/timothyjones/Documents/GitHub/Storyboard/storyboard/game/saves/navigation.json'
 
 macOS-15.5-arm64-arm-64bit arm64
 Ren'Py 8.3.7.25031702
 storyboard 1.0
-Fri Jul 11 16:55:47 2025
+Sat Jul 12 00:41:50 2025

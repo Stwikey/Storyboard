@@ -1,35 +1,31 @@
-2025-07-11 20:55:01 UTC
+2025-07-12 04:41:44 UTC
 macOS-15.5-arm64-arm-64bit
 Ren'Py 8.3.7.25031702
 
 Early init took 0.03s
-Loading error handling took 6.65s
-Loading script took 4.03s
-Loading save slot metadata took 5.15s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 1.61s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.05s
+Loading save slot metadata took 13.88s
+Loading persistent took 0.00sRRunning init code took 0.06sLLoading analysis data took 0.75s
+Analyze and compile ATL took 0.00sRReloading save slot metadata took 0.02s
 Index archives took 0.00s
-Backing up script files to '/Users/timothyjones/Library/RenPy/backups/storyboard':
 Dump and make backups took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.04s
+Initial gc took 0.03s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 2.43s
-Analyze screens took 0.03s
-Save screen analysis took 0.03s
+Load screen analysis took 1.35s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
 Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 4.16s
+Interface start took 3.25s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -41,17 +37,12 @@ Version: b'2.1 Metal - 89.4'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 163, in script
-    jump part_two
-  File "/Applications/renpy-8.3.7-sdk/renpy/ast.py", line 1712, in execute
-    rv = renpy.game.script.lookup(target)
-  File "/Applications/renpy-8.3.7-sdk/renpy/script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'part_two'.
-
-While running game code:
-  File "game/script.rpy", line 163, in script
-    jump part_two
-ScriptError: could not find label 'part_two'.
+, 1080) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
