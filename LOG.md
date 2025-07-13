@@ -1,4 +1,4 @@
-A log of the time spent for artworks since there is no hackatime for medibang (timelapses for each are uploaded on the submission page as well)
+A log of the time spent for artworks since there is no hackatime for medibang (timelapses for each at the end of the log).
 
 <img width="199" height="201" alt="Screenshot 2025-07-13 at 12 57 28 AM" src="https://github.com/user-attachments/assets/2620b0f1-9dd5-4f9b-989c-047cadbb8313" />
 
