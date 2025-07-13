@@ -42,4 +42,6 @@ Finished colouring the waitress & emotions: 30 minutes
 
 Finished colouring the bread & emotions: 10 minutes
 
-Youtube playlist of timelapses: https://www.youtube.com/playlist?list=PL_H420th-M6skOCeZMMaZwxKJld-Ppj_C
+**Total time spent on art: 3 hours 5 minutes**
+
+**Youtube playlist of timelapses: https://www.youtube.com/playlist?list=PL_H420th-M6skOCeZMMaZwxKJld-Ppj_C**
